@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    display: inline-block;
+}
+.container{
+    max-width: 100%;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 135px;    
+}
+.header_list{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 21,52, 0.5);
+}
